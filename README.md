@@ -1,30 +1,22 @@
-# Abdullah Masood website
+# Abdulla Masood website
 
-Ready-to-preview static website. Open index.html, or serve this folder with a local web server. No installation, build step, API key or paid dependency is needed.
+## Client update — 15 September 2026
+- Corrected the website business name to Abdulla Masood throughout visible text, metadata, accessible labels and enquiry subject.
+- All 81 client-supplied photographs, compressed as WebP, with smaller gallery thumbnails.
+- Six-photo hero slideshow, soft fades, subtle zoom, previous/next and pause controls. Retains the 1996 card. Respects reduced-motion preferences and suspends automatic changes off screen.
+- Four project categories, 12 photographs at a time, Load more, and keyboard-accessible full-size viewer. All matching photos are available in the viewer.
+- Both client videos converted to H.264/AAC MP4, with preview posters and native playback controls. Videos load on demand and only one plays at a time.
+- Floating WhatsApp, capabilities/materials badges, and client-requested 2–4 hour quotation note.
+- Email enquiry form with up to three PDF/DWG/PNG/JPG attachments, 10 MB combined limit.
 
-## Included
-- Responsive desktop and mobile layouts with the supplied company logo.
-- Local compressed WebP photographs extracted from the supplied company profile.
-- Downloadable original company profile.
-- Call, email and Google Maps links.
-- Quote form which prepares a WhatsApp message for the visitor to review and send. It does not submit to a server, store customer data or send messages automatically.
-- Semantic HTML, keyboard focus indicators, reduced-motion support, descriptive page metadata and LocalBusiness structured data.
+## Email activation
+Enquiries are addressed to alimoosakhan@gmail.com through FormSubmit. The recipient must complete FormSubmit's one-time activation before relying on delivery. Confirm receipt of a real test enquiry and drawing after activation. Delivery has not been tested; no test message was sent to the client.
 
-## Sources and editorial decisions
-- Company name, founding year 1996, services, welding methods, staff names and email addresses: client-supplied 12-page company profile, particularly pages 7–9 and 12.
-- Logo: supplied MA LOGO 31-1-2024 11.pdf, rendered without redesign.
-- Google Maps supplied by client: https://maps.app.goo.gl/dVoTqFdna1GyqknK7
-- Maps verified 15 September 2026: main phone +971 55 779 8855; Al Mansuri Building, Shop No. 7, Ras Al Khor Road, Nadd Al Hamar, Dubai; Monday–Saturday 07:00–18:00, Sunday closed; coordinates 25.184776, 55.3745133.
-- The company profile takes precedence over directory email addresses.
-- The profile's first additional phone number appears incomplete (+971 556251298). It is omitted, not repaired by guessing.
-- Photography is presented as service imagery from the profile, not as verified completed client projects.
-- No invented certifications, client logos, project counts, reviews, guaranteed response times or delivery promises.
+## Sources
+Business details: supplied company profile and Google Maps listing https://maps.app.goo.gl/dVoTqFdna1GyqknK7. The spelling correction and quotation response wording were requested by the client/user. Logo and original downloadable company profile remain supplied originals; embedded text in the original PDF is not rewritten. New photography and videos come from the user-provided client pic folder. assets/client/sources.json maps optimised images to source filenames. The old Maps/profile photographs are no longer referenced in the page.
 
-## Before public launch
-Confirm the main number accepts WhatsApp, the two email addresses and current opening hours with the owner. Confirm rights to reuse the profile photographs publicly (included here as supplied company material). Review all content with the owner.
+## Preview and deployment
+Open index.html or serve this folder with a local web server. No build step required. Deploy index.html, styles.css, app.js, privacy.html, assets/logo.png, assets/company-profile.pdf and assets/client/. Do not upload the original client pic folder. The release ZIP includes only website files and optimised media.
 
-Google Maps lists abdullahmasoodsteel.com, but it did not resolve during this build. Confirm domain ownership and hosting access before deployment. No domain changes or publication have been performed.
-
-Upload the folder contents to a static HTTPS host. Once the final domain is confirmed, add its canonical URL, absolute social image URL and sitemap. Set server caching for assets (with versioned names on updates), compression, X-Content-Type-Options: nosniff and Referrer-Policy: strict-origin-when-cross-origin. No analytics or third-party embeds are included. Hosting logs and any later analytics require an appropriate privacy review.
-
-Performance: no external fonts, frameworks, trackers or map iframe; the primary image is preloaded and secondary images are lazy loaded. Live Core Web Vitals and search placement depend on deployment and cannot be guaranteed by a local build.
+## Verification
+JavaScript syntax passed. Gallery filtering, Load more, lightbox, slideshow controls, mobile menu and client video loading checked in browser. Confirmed no horizontal overflow at a 390 CSS-pixel viewport. All referenced local files checked. Original client files preserved.
